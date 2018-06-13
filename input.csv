@@ -1,0 +1,52 @@
+W,MOVE,b2,d3
+W,MOVE,b2,b3
+W,MOVE,b2,b4
+W,MOVE,f2,f4
+E, EAT, b3, c2
+W, EAT, z1, b9
+B,MOVE,c7,c5
+B,MOVE,c5,c4
+B,MOVE,c4,c4
+B,EAT,c4,b3
+W,EAT,c2,b3
+W,EAT,b1,c3
+W,MOVE,b1,c3
+W,MOVE,c3,b1
+W,MOVE,b1,c3
+W,MOVE,c3,b5
+W,EAT,b5,a7
+W,MOVE,g2,g3
+W,MOVE,f1,h3
+W,EAT,h3,d7
+W,EAT,d7,e8
+W,EAT,e8,g6
+W,EAT,e8,f7
+
+// ROOK TESTING
+W,MOVE,a1,b1
+W,MOVE,b1,b2
+W,MOVE,b2,b3
+W,MOVE,b2,c2
+W,MOVE,c2,c6
+W,EAT,c6,c8
+W,EAT,c8,a8
+
+// BISHOP TESTING 2
+W,MOVE,c1,b2
+W,EAT,b2,g7
+
+// QUEEN TESTING
+W,MOVE,d1,c2
+W,EAT,c2,h7
+
+// MOVE COUNTER TESTING
+B,EAT,d8,c8
+
+//W,EAT,a7,c8
+//B,EAT,d8,c8
+//B,MOVE,c8,c7
+
+// KNIGHT TESTING
+W,MOVE,g1,h3
+B,MOVE,g8,h6
+B,EAT,h6,f7
